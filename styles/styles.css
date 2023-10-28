@@ -14,6 +14,24 @@
 .card-text {
   align-items: center;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10vh;
+  min-width: 100%;
+}
+.header__logo {
+ top: 10px;
+}
+.header__logo-img {
+  max-width: 80px;
+  max-height: 80px;
+}
 
 :root {
   --main-color: fff;
