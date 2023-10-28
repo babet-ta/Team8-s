@@ -1,8 +1,8 @@
 .carousel-item {
-    background-color: #F8C2C2;
+    background-color: #f8c2c2;
     padding: 20px;
-  }
-  .card-body {
+}
+.card-body {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
@@ -10,9 +10,9 @@
     display: inline-block;
 }
 .card-text {
-  align-items: center;
+    align-items: center;
 }
-  
+
 :root {
   --main-color: fff;
   --text-color: #000;
@@ -20,32 +20,32 @@
 }
 
 body {
-  max-width: 1920px;
-  margin: 50px 100px;
-  /* шрифт для текста */
-  font-family: 'Jost', sans-serif;
+    max-width: 1920px;
+    margin: 50px 100px;
+    /* шрифт для текста */
+    font-family: "Jost", sans-serif;
 }
 
 h1 {
-  /* шрифт для заголовков */
-  font-family: 'Playfair Display', serif;
-  text-align: center;
+    /* шрифт для заголовков */
+    font-family: "Playfair Display", serif;
+    text-align: center;
 }
 
 .toggle-box {
-  display: none;
+    display: none;
 }
 
-.toggle-box+label {
-  display: block;
+.toggle-box + label {
+    display: block;
 }
 
-.toggle-box+label+ul {
-  display: none;
+.toggle-box + label + ul {
+    display: none;
 }
 
-.toggle-box:checked+label+ul {
-  display: block;
+.toggle-box:checked + label + ul {
+    display: block;
 }
 
 .main__module {
@@ -78,11 +78,11 @@ h1 {
 }
 
 dialog {
-	  margin: 10px;
-	  background: rgb(234, 93, 128);
-	  border: none;
-	  border-radius: 1rem;
-	}
+    margin: 10px;
+    background: rgb(234, 93, 128);
+    border: none;
+    border-radius: 1rem;
+}
 
 .wrapper {
     display: grid;
@@ -90,7 +90,7 @@ dialog {
     background-color: #fff;
     color: rgb(115, 8, 35);
 }
-      
+
 .box {
     background-color: rgb(234, 93, 128);
     color: #fff;
@@ -98,6 +98,32 @@ dialog {
     padding: 20px;
     font-size: 150%;
 }
+
+
+/* Смена картинки при наведении */
+.diamonds__cards .cards__img_active {
+    display: none;
+}
+
+.diamonds__cards:hover {
+    background-color: var(--primary-color);
+    /* background-color: pink; */
+
+    cursor: pointer;
+
+    .cards__wr-title {
+        color: #ffffff;
+    }
+
+    .cards__img {
+        display: none;
+    }
+
+    .cards__img_active {
+        display: inline;
+    }
+}
+/* Смена картинки при наведении -end- */
 
 textarea {
     resize: none;
