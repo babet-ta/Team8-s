@@ -9,6 +9,9 @@
     width: 300px;
     display: inline-block;
 }
+.card-text {
+  align-items: center;
+}
   
 :root {
   --main-color: fff;
@@ -25,6 +28,7 @@ body {
 h1 {
   /* шрифт для заголовков */
   font-family: 'Playfair Display', serif;
+  text-align: center;
 }
 
 .toggle-box {
