@@ -52,6 +52,7 @@ h1 {
   cursor: pointer;
   font-weight: 600;
   font-size: larger;
+  margin: 10px;
 }
 
 .toggle-box:checked+.main__module {
