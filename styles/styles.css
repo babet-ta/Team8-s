@@ -1,5 +1,6 @@
 :root {
   --main-color: fff;
+  --text-color: #000;
   --primary-color: rgb(234, 93, 128);
 }
 
@@ -31,17 +32,38 @@ h1 {
   display: block;
 }
 
-.main__module-content {
-  list-style-type: none;
+.main__module {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: larger;
 }
 
-.main__module-content_project {
+.toggle-box:checked+.main__module {
   color: var(--primary-color);
 }
 
+.main__module-content {
+  list-style-type: none;
+
+}
+
+.main__module-content_unit_title {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.main__module-content_unit_title-bold {
+  font-weight: bolder;
+}
+
+.main__module-content_project_title {
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
 dialog {
-	  margin: 10px;
-	  background: rgb(218, 134, 202);
-	  border: none;
-	  border-radius: 1rem;
-	}
+  margin: 10px;
+  background: rgb(218, 134, 202);
+  border: none;
+  border-radius: 1rem;
+}
