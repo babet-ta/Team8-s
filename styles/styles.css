@@ -1,3 +1,44 @@
+:root {
+  --main-color: fff;
+  --primary-color: rgb(234, 93, 128);
+}
+
+body {
+  max-width: 1920px;
+  margin: 50px 100px;
+  /* шрифт для текста */
+  font-family: 'Jost', sans-serif;
+}
+
+h1 {
+  /* шрифт для заголовков */
+  font-family: 'Playfair Display', serif;
+}
+
+.toggle-box {
+  display: none;
+}
+
+.toggle-box+label {
+  display: block;
+}
+
+.toggle-box+label+ul {
+  display: none;
+}
+
+.toggle-box:checked+label+ul {
+  display: block;
+}
+
+.main__module-content {
+  list-style-type: none;
+}
+
+.main__module-content_project {
+  color: var(--primary-color);
+}
+
 dialog {
 	  margin: 10px;
 	  background: rgb(218, 134, 202);
