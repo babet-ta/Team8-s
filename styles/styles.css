@@ -23,14 +23,10 @@
   height: 10vh;
   min-width: 100%;
 }
-.header__logo {
- top: 10px;
-}
 .header__logo-img {
   max-width: 80px;
   max-height: 80px;
 }
-
 :root {
   --main-color: fff;
   --text-color: #000;
