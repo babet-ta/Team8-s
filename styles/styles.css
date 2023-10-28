@@ -41,7 +41,23 @@ h1 {
 
 dialog {
 	  margin: 10px;
-	  background: rgb(218, 134, 202);
+	  background: rgb(234, 93, 128);
 	  border: none;
 	  border-radius: 1rem;
 	}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: #fff;
+    color: rgb(115, 8, 35);
+    max-width:  800px;
+}
+      
+.box {
+    background-color: rgb(234, 93, 128);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
