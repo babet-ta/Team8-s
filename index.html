@@ -12,7 +12,45 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
-  <h1>Всем привет</h1>
+<body>
+  <header></header>
+  <main>
+  <h1 class="main__title">Рабочая тетрадь</h1>
+  <section>
+      <input class="toggle-box" id="module-1" type="checkbox" >
+      <label for="module-1">Модуль 1. HTML, CSS</label>
+        <ul class="main__module-content">
+          <li><input id="unit-1" type="checkbox">Неделя 1. Основы HTML</li>
+          <li><input id="unit-2" type="checkbox">Неделя 2. Семантическая верстка и разметка</li>
+          <li><input id="unit-3" type="checkbox">Неделя 3. Графика</li>
+          <li><input id="unit-4" type="checkbox">Неделя 4. Стилизация и CSS</li>
+          <li><input id="unit-5" type="checkbox">Неделя 5. Позиционирование элементов</li>
+          <li><input id="unit-6" type="checkbox">Неделя 6. CSS Grid</li>
+          <li><input id="unit-7" type="checkbox">Неделя 7. Адаптивная верстка</li>
+          <li><input id="unit-8" type="checkbox">Неделя 8. CSS Фреймворки</li>
+          <li class="main__module-content_project"><input id="unit-8" type="checkbox">Проект №1</li>
+          <li class="main__module-content_project"><input id="unit-8" type="checkbox">Проект №2</li>
+        </ul>
+      <input class="toggle-box" id="module-2" type="checkbox" >
+      <label for="module-2">Нажмите здесь, чтобы прочитать больше о CSS!</label>
+      <ul>CSS - CSS Cascading Style Sheets — каскадные таблицы стилей — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, например, к SVG или XUL.</ul>
+    </section>
+    <button id="open">Как пользоваться заметками</button>
+  <dialog>
+    <p>
+      <ul>
+        <li>Записывай самое важное по ходу обучения</li>
+        <li>Закрашивай кристаллы и радуйся прогрессу</li>
+        <li>Сохраняй важные и полезные ссылки на ресурсы</li>
+      </ul>
+    </p>
+    <p>
+      <button id="close">Закрыть подсказки</button>
+    </p>
+    </dialog>
+</main>
+<footer>
+  
   <div class="container">
     <div class="row">
       <div class="col-md-4 offset-md-4">
@@ -119,50 +157,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
-  <header></header>
-  <main>
-  <h1 class="main__title">Рабочая тетрадь</h1>
-  <section>
-      <input class="toggle-box" id="module-1" type="checkbox" >
-      <label for="module-1">Модуль 1. HTML, CSS</label>
-        <ul class="main__module-content">
-          <li><input id="unit-1" type="checkbox">Неделя 1. Основы HTML</li>
-          <li><input id="unit-2" type="checkbox">Неделя 2. Семантическая верстка и разметка</li>
-          <li><input id="unit-3" type="checkbox">Неделя 3. Графика</li>
-          <li><input id="unit-4" type="checkbox">Неделя 4. Стилизация и CSS</li>
-          <li><input id="unit-5" type="checkbox">Неделя 5. Позиционирование элементов</li>
-          <li><input id="unit-6" type="checkbox">Неделя 6. CSS Grid</li>
-          <li><input id="unit-7" type="checkbox">Неделя 7. Адаптивная верстка</li>
-          <li><input id="unit-8" type="checkbox">Неделя 8. CSS Фреймворки</li>
-          <li class="main__module-content_project"><input id="unit-8" type="checkbox">Проект №1</li>
-          <li class="main__module-content_project"><input id="unit-8" type="checkbox">Проект №2</li>
-        </ul>
-      <input class="toggle-box" id="module-2" type="checkbox" >
-      <label for="module-2">Нажмите здесь, чтобы прочитать больше о CSS!</label>
-      <ul>CSS - CSS Cascading Style Sheets — каскадные таблицы стилей — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, например, к SVG или XUL.</ul>
-    </section>
-    <button id="open">Как пользоваться заметками</button>
-  <dialog>
-    <p>
-      <ul>
-        <li>Записывай самое важное по ходу обучения</li>
-        <li>Закрашивай кристаллы и радуйся прогрессу</li>
-        <li>Сохраняй важные и полезные ссылки на ресурсы</li>
-      </ul>
-    </p>
-    <p>
-      <button id="close">Закрыть подсказки</button>
-    </p>
-    </dialog>
-</main>
-<footer></footer>
+</footer>
   <script src="./index.js"></script>
 </body>
 </html>
