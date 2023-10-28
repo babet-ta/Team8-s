@@ -38,3 +38,10 @@ h1 {
 .main__module-content_project {
   color: var(--primary-color);
 }
+
+dialog {
+	  margin: 10px;
+	  background: rgb(218, 134, 202);
+	  border: none;
+	  border-radius: 1rem;
+	}
