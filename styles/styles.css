@@ -1,3 +1,15 @@
+.carousel-item {
+    background-color: #F8C2C2;
+    padding: 20px;
+  }
+  .card-body {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+}
+  
 :root {
   --main-color: fff;
   --primary-color: rgb(234, 93, 128);
