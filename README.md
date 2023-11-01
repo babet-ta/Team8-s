@@ -31,7 +31,7 @@ cd Team8-s
 ```
 ## Usage
 
-We will provide code screenshots and  other helpful information once the project is complited.
+We will provide screenshots and  other helpful information once the project is complited.
 
 ## Result 
 
