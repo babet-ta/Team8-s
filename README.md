@@ -12,17 +12,17 @@ A workbook for frontend online-course.
 
 ## Introduction
 
-The main purpose of the workbook helps to track your progress on ITGirlsSchool frontend course and to store your personal notes and bookmarks on your frontend journey in digital form
+The main purpose of the workbook is to help to track your progress on ITGirlsSchool frontend course and to store your personal notes and bookmarks on your frontend journey in digital form
 
 ## Features
 
 - track your progress in frontend course
 - store your bookmarks for modules
-- use as a printed one, but in digital form  
+- use it as a printed workbook but in digital form  
 
 ## Installation
 
-For now the project uses only HTML+CSS and vanilla JS, so there is no need to install any dependences 
+The project currently uses only HTML, CSS, and vanilla JS, so there is no need to install any dependencies. 
 
 ```bash
 # Example installation steps
@@ -35,4 +35,4 @@ We will provide code screenshots and  other helpful information once the project
 
 ## Result 
 
-You can check out the result here[https://babet-ta.github.io/Team8-s/]
+You can check out the result by visiting this link [https://babet-ta.github.io/Team8-s/].
