@@ -35,4 +35,4 @@ We will provide code screenshots and  other helpful information once the project
 
 ## Result 
 
-You can check out the result by visiting this link[https://babet-ta.github.io/Team8-s/].
+You can check out the result by visiting this [link](https://babet-ta.github.io/Team8-s/).
