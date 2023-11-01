@@ -12,7 +12,7 @@ A workbook for frontend online-course.
 
 ## Introduction
 
-The main purpose of the workbook is to help to track your progress on ITGirlsSchool frontend course and to store your personal notes and bookmarks on your frontend journey in digital form
+The main purpose of the workbook is to help to track your progress on ITGirlsSchool frontend course. It can also help to store your personal notes and bookmarks on your frontend journey in digital form.
 
 ## Features
 
